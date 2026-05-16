@@ -27,8 +27,8 @@ console.log(buildInfo());
 Releases are tag-driven:
 
 ```bash
-git tag v0.1.0
-git push origin main v0.1.0
+git tag v0.1.1
+git push origin main v0.1.1
 ```
 
 The npm trusted publisher should be configured for:

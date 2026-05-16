@@ -1,6 +1,6 @@
 {
   "name": "@peezy.tech/patch-moi-harness",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny releaseable npm package used to exercise patch.moi fork maintenance.",
   "type": "module",
   "license": "MIT",
