@@ -1,0 +1,32 @@
+{
+  "name": "@peezy.tech/patch-moi-harness",
+  "version": "0.1.0",
+  "description": "Tiny releaseable npm package used to exercise patch.moi fork maintenance.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peezy-tech/patch-moi-harness.git"
+  },
+  "bin": {
+    "patch-moi-harness": "bin/patch-moi-harness.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "pack:dry-run": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
