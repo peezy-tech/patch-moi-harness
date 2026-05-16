@@ -27,8 +27,8 @@ console.log(buildInfo());
 Releases are tag-driven:
 
 ```bash
-git tag v0.1.2
-git push origin main v0.1.2
+git tag v0.1.3
+git push origin main v0.1.3
 ```
 
 The npm trusted publisher should be configured for:
@@ -36,4 +36,4 @@ The npm trusted publisher should be configured for:
 - GitHub organization/user: `peezy-tech`
 - GitHub repository: `patch-moi-harness`
 - Workflow filename: `publish.yml`
-- Environment: unset
+- Environment: `npm-publish`
